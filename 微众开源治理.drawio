@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T08:37:47.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="J6HnuNJXzU9dlE6GXZIB" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T08:56:07.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_tJaztUC5jlSVixqWVcj" version="20.2.5" type="github">
   <diagram id="dbPlMSyZmyiy87wTLgsy" name="第 1 页">
     <mxGraphModel dx="1422" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,11 +60,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="P90RqLLHq7_aSwwXnbhx-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="P90RqLLHq7_aSwwXnbhx-11" target="P90RqLLHq7_aSwwXnbhx-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="370" />
+              <mxPoint x="750" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="P90RqLLHq7_aSwwXnbhx-11" value="SourceCheck" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="600" y="343" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P90RqLLHq7_aSwwXnbhx-16" value="0、策略规则配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="605" y="310" width="110" height="30" as="geometry" />
+        <mxCell id="P90RqLLHq7_aSwwXnbhx-16" value="0、策略规则配置" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="312" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P90RqLLHq7_aSwwXnbhx-18" value="3、接口返回（主动和被动）" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="402" width="172" height="30" as="geometry" />
@@ -125,11 +133,14 @@
         <mxCell id="P90RqLLHq7_aSwwXnbhx-55" value="&lt;b&gt;平台交互场景&lt;/b&gt;&lt;br&gt;1、通过快速扫描检查当前应用的风险&lt;br&gt;2、申请白名单" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
           <mxGeometry x="520" y="290" width="120" height="67.5" as="geometry" />
         </mxCell>
-        <mxCell id="P90RqLLHq7_aSwwXnbhx-64" value="&lt;b&gt;平台交互场景&lt;/b&gt;&lt;br&gt;统计组件数量、导出报表" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
+        <mxCell id="P90RqLLHq7_aSwwXnbhx-64" value="&lt;b&gt;平台交互场景&lt;/b&gt;&lt;br&gt;统计组件清单、生成开源组件使用月报" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
           <mxGeometry x="770" y="287.5" width="111" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="P90RqLLHq7_aSwwXnbhx-66" value="&lt;b&gt;ITSM交互场景&lt;/b&gt;&lt;br&gt;1、安全审核" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
           <mxGeometry x="770" y="137.5" width="111" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="P90RqLLHq7_aSwwXnbhx-68" value="1、漏洞预警" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
+          <mxGeometry x="592" y="195.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P90RqLLHq7_aSwwXnbhx-61" value="&lt;b&gt;CI交互场景&lt;/b&gt;&lt;br&gt;1、查看CI结果（只需要关键信息，如高危组件，如何修复）&lt;br&gt;2、通过平台链接跳转SourceCheck查看信息" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="515" width="180" height="80" as="geometry" />
