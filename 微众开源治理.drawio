@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T08:32:53.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="MogHnd8oJK6kAi8wNrcR" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T08:37:47.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="J6HnuNJXzU9dlE6GXZIB" version="20.2.5" type="github">
   <diagram id="dbPlMSyZmyiy87wTLgsy" name="第 1 页">
     <mxGraphModel dx="1422" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,8 +122,8 @@
         <mxCell id="P90RqLLHq7_aSwwXnbhx-15" value="2、触发" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
           <mxGeometry x="378" y="197.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P90RqLLHq7_aSwwXnbhx-55" value="&lt;b&gt;平台交互场景&lt;/b&gt;&lt;br&gt;通过快速扫描检查当前应用的风险" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
-          <mxGeometry x="520" y="310" width="111" height="47.5" as="geometry" />
+        <mxCell id="P90RqLLHq7_aSwwXnbhx-55" value="&lt;b&gt;平台交互场景&lt;/b&gt;&lt;br&gt;1、通过快速扫描检查当前应用的风险&lt;br&gt;2、申请白名单" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
+          <mxGeometry x="520" y="290" width="120" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="P90RqLLHq7_aSwwXnbhx-64" value="&lt;b&gt;平台交互场景&lt;/b&gt;&lt;br&gt;统计组件数量、导出报表" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
           <mxGeometry x="770" y="287.5" width="111" height="47.5" as="geometry" />
