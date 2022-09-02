@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T08:59:12.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="FGX9yivFoDsa_xjB2JQN" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T10:10:47.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KRRPopaedPIxBaVvMncp" version="20.2.5" type="github">
   <diagram id="dbPlMSyZmyiy87wTLgsy" name="第 1 页">
     <mxGraphModel dx="1422" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
         <mxCell id="P90RqLLHq7_aSwwXnbhx-15" value="2、触发" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
           <mxGeometry x="378" y="197.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P90RqLLHq7_aSwwXnbhx-55" value="&lt;b&gt;平台交互场景&lt;/b&gt;&lt;br&gt;1、通过快速扫描或者IDEA插件检查当前应用的风险&lt;br&gt;2、申请白名单" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
+        <mxCell id="P90RqLLHq7_aSwwXnbhx-55" value="&lt;b&gt;平台交互场景&lt;/b&gt;&lt;br&gt;1、通过快速扫描(针对应用)或者IDEA插件(针对SDK、框架)检查风险&lt;br&gt;2、申请白名单" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
           <mxGeometry x="520" y="290" width="230" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="P90RqLLHq7_aSwwXnbhx-64" value="&lt;b&gt;平台交互场景&lt;/b&gt;&lt;br&gt;统计组件清单、生成开源组件使用月报" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P90RqLLHq7_aSwwXnbhx-49">
@@ -144,6 +144,15 @@
         </mxCell>
         <mxCell id="P90RqLLHq7_aSwwXnbhx-61" value="&lt;b&gt;CI交互场景&lt;/b&gt;&lt;br&gt;1、查看CI结果（只需要关键信息，如高危组件，如何修复）&lt;br&gt;2、通过平台链接跳转SourceCheck查看信息" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="515" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P90RqLLHq7_aSwwXnbhx-71" value="&lt;h1&gt;漏洞预警&lt;/h1&gt;&lt;p&gt;1、具备分析漏洞和预警的能力，要比阿里、360漏洞预警还要快。&lt;/p&gt;&lt;p&gt;2、目前的处理方式，收集CVE的poc、exp，评估影响面，写脚本去验证代码、监控代码仓库和黑盒修复&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="660" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P90RqLLHq7_aSwwXnbhx-72" value="&lt;h1&gt;漏洞应急和修复&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、目前的处理方式，利用安全工单来推动漏洞的修复、同时产线部署HIDS入侵检测系统，检测组件风险&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="650" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P90RqLLHq7_aSwwXnbhx-73" value="&lt;h1&gt;建议&lt;/h1&gt;&lt;p&gt;1、简化版EXCEL报告，简化的功能更适合具有完备DevSecOps体系的客户&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="650" width="300" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
